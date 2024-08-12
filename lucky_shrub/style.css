@@ -50,6 +50,18 @@ header img {
     /* width: 100%; */
    
   }
+
+  .article_info{
+    flex-direction: column;
+  }
+
+  footer {
+    flex-direction: column;
+
+    p{
+      text-align: center;
+    }
+  }
 }
 
 
@@ -117,6 +129,7 @@ section {
   box-shadow: 0 0 11px rgba(33, 33, 33, 0.2);
   transform: scale(1.05);
 }
+
 footer {
   display: flex;
   justify-content: space-around;;
